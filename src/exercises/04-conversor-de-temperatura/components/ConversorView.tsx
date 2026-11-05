@@ -2,7 +2,7 @@ import './conversor.css';
 
 interface ConversorViewProps {
   celsius: string;
-  fahrenheit: number | null;
+  fahrenheit: string | null;
   haceCalor: boolean;
   onEscribirCelsius: (valor: string) => void;
 }
@@ -30,7 +30,7 @@ export function ConversorView({
 
       {fahrenheit !== null && (
         <p className="conversor-resultado">
-          {celsius} °C = <strong>{fahrenheit} °F</strong>
+          <strong>{fahrenheit} °F</strong>
         </p>
       )}
 

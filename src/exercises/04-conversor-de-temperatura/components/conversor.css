@@ -26,10 +26,11 @@
 
 .conversor-resultado {
   margin: 4px 0 0;
+  font-size: xx-large;
 }
 
 .conversor-aviso {
   margin: 0;
-  color: #b3541e;
+  color: #1b1918;
   font-weight: 600;
 }

@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 interface ConversorEstado {
   celsius: string;
-  /** Fahrenheit derivado en cada render; null si la entrada no es numérica. */
-  fahrenheit: number | null;
+  /** Fahrenheit derivado en cada render, formateado con 1 decimal; null si la entrada no es numérica. */
+  fahrenheit: string | null;
   haceCalor: boolean;
   escribirCelsius: (valor: string) => void;
 }
@@ -22,7 +22,7 @@ export function useConversor(): ConversorEstado {
 
   const grados = Number(celsius);
   const convertible = celsius !== '' && Number.isFinite(grados);
-  const fahrenheit = convertible ? grados * (9 / 5) + 32 : null;
+  const fahrenheit=convertible?(Math.trunc((grados*(9/5)+32)*100)/100).toFixed(1):null;
   const haceCalor = convertible && grados > 30;
 
   return { celsius, fahrenheit, haceCalor, escribirCelsius };
