@@ -5,7 +5,7 @@ import MostrarYOcultarPage from '../exercises/03-mostrar-y-ocultar/MostrarYOcult
 import ConversorDeTemperaturaPage from '../exercises/04-conversor-de-temperatura/ConversorDeTemperaturaPage';
 import ListaDeComprasPage from '../exercises/05-lista-de-compras/ListaDeComprasPage';
 import BuscadorPage from '../exercises/06-buscador/BuscadorPage';
-import TiparConTypeScript from '../exercises/07-tipar-con-typescript/TiparConTypeScript';
+import TiparConTypeScriptPage from '../exercises/07-tipar-con-typescript/TiparConTypeScriptPage';
 
 export interface Exercise {
   /** Id estable de la pestaña. */
@@ -110,6 +110,6 @@ export const EXERCISES: Exercise[] = [
     hint: 'Una prop opcional se declara con signo de pregunta: `oferta?: boolean`. Recordá que en la página de la clase los tipos no se verifican; copiá tu solución a un proyecto Vite para ver los errores reales en VS Code.',
     image: '/ej_07.png',
     caption: 'Con la prop oferta activada en el teclado.',
-    Component: TiparConTypeScript,
+    Component: TiparConTypeScriptPage,
   },
 ];
