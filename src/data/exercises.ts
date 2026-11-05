@@ -1,6 +1,6 @@
 import type { ComponentType } from 'react';
 import TarjetasDeProductoPage from '../exercises/01-tarjetas-de-producto/TarjetasDeProductoPage';
-import ContadorConLimites from '../exercises/02-contador-con-limites/ContadorConLimites';
+import ContadorConLimitesPage from '../exercises/02-contador-con-limites/ContadorConLimitesPage';
 import MostrarYOcultar from '../exercises/03-mostrar-y-ocultar/MostrarYOcultar';
 import ConversorDeTemperatura from '../exercises/04-conversor-de-temperatura/ConversorDeTemperatura';
 import ListaDeCompras from '../exercises/05-lista-de-compras/ListaDeCompras';
@@ -50,7 +50,7 @@ export const EXERCISES: Exercise[] = [
     hint: 'Los botones aceptan la prop `disabled`: `<button disabled={valor === 10}>`. Y antes de sumar podés chequear `if (valor < 10)`.',
     image: '/ej_02.png',
     caption: 'Al llegar a 10: el botón + queda deshabilitado.',
-    Component: ContadorConLimites,
+    Component: ContadorConLimitesPage,
   },
   {
     id: 'mostrar-y-ocultar',
