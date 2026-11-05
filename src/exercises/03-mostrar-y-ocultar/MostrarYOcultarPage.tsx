@@ -10,8 +10,8 @@ export default function MostrarYOcultarPage() {
 
   return (
     <TarjetaPregunta
-      pregunta="¿Qué hace un componente de React?"
-      respuesta="Renderiza una porción de la UI: recibe props y devuelve elementos reutilizables que React se encarga de pintar en el DOM."
+      pregunta="¿Qué es JSX?"
+      respuesta="Una sintaxis que permite escribir estructura parecida a HTML dentro de JavaScript. Se transforma en llamadas a funciones de React."
       visible={visible}
       onAlternar={alternar}
     />
