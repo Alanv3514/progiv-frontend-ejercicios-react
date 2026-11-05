@@ -36,35 +36,43 @@ body {
   margin: 0 0 16px;
 }
 
-/* Tabs */
+/* Tabs estilo pestaña de carpeta, apoyadas sobre el panel de contenido */
 .tabs {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  border-bottom: 2px solid var(--line);
-  padding-bottom: 12px;
-  margin-bottom: 24px;
+  gap: 2px;
 }
 
 .tab {
   font: inherit;
-  font-size: 0.9rem;
-  padding: 6px 12px;
+  font-size: 0.85rem;
+  padding: 8px 14px;
   border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--card);
+  border-bottom: none;
+  border-radius: 8px 8px 0 0;
+  background: #dcecee;
   color: var(--chip-ink);
   cursor: pointer;
 }
 
 .tab:hover {
-  border-color: var(--teal);
+  background: #cfe4e6;
 }
 
 .tab-active {
-  background: var(--teal);
-  border-color: var(--teal);
-  color: #fff;
+  background: var(--card);
+  color: var(--teal);
+  font-weight: 600;
+  /* Pisa el borde superior del panel para pegarse a él */
+  margin-bottom: -1px;
+  position: relative;
+}
+
+.app-main {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0 10px 10px 10px;
+  padding: 18px 22px 24px;
 }
 
 /* Exercise panel */

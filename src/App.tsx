@@ -26,7 +26,7 @@ export default function App() {
             aria-current={index === active}
             onClick={() => setActive(index)}
           >
-            {tab.number}. {tab.title}
+            {index === active ? `EJ ${tab.number} · ${tab.title}` : `EJ ${tab.number}`}
           </button>
         ))}
       </nav>
