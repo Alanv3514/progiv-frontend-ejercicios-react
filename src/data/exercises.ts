@@ -4,7 +4,7 @@ import ContadorConLimitesPage from '../exercises/02-contador-con-limites/Contado
 import MostrarYOcultarPage from '../exercises/03-mostrar-y-ocultar/MostrarYOcultarPage';
 import ConversorDeTemperaturaPage from '../exercises/04-conversor-de-temperatura/ConversorDeTemperaturaPage';
 import ListaDeComprasPage from '../exercises/05-lista-de-compras/ListaDeComprasPage';
-import Buscador from '../exercises/06-buscador/Buscador';
+import BuscadorPage from '../exercises/06-buscador/BuscadorPage';
 import TiparConTypeScript from '../exercises/07-tipar-con-typescript/TiparConTypeScript';
 
 export interface Exercise {
@@ -98,7 +98,7 @@ export const EXERCISES: Exercise[] = [
     hint: 'Pasá ambos textos a minúsculas y usá `includes`: `l.toLowerCase().includes(busqueda.toLowerCase())`.',
     image: '/ej_06.png',
     caption: 'Buscando "ja".',
-    Component: Buscador,
+    Component: BuscadorPage,
   },
   {
     id: 'tipar-con-typescript',
