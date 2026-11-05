@@ -21,7 +21,7 @@ export function ProductoTipado({ nombre, precio, stock, oferta }: ProductoProps)
       </h3>
       <p className="tarjeta-producto-tipado-precio">${precio}</p>
       <p className="tarjeta-producto-tipado-stock">
-        {stock === 0 ? 'Sin stock' : `Stock: ${stock} unidades`}
+        {stock === 0 ? 'Sin stock' : `Stock: ${stock}`}
       </p>
     </article>
   );
