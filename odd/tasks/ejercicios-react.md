@@ -20,11 +20,13 @@ Convención obligatoria (especificada por el usuario): por ejercicio, estructura
 
 - **T1** (S1) ejercicio/01-tarjetas-de-producto — inline — ✅ commit 1a55a05 (PR #1, squash) — page `TarjetasDeProductoPage.tsx` + componente `Producto` (sin hook: no hay lógica de estado; props puros).
 - **T2** (S2) ejercicio/02-contador-con-limites — inline — ✅ commit 63c1ab9 (PR #2, squash) — `useContador` (guardas de rango) + `ContadorView` visual puro (disabled según límites).
-- **T3** (S3) ejercicio/03-mostrar-y-ocultar — inline — `useVisible` hook + `MostrarYOcultarPage` + tarjeta visual.
-- **T4** (S4) ejercicio/04-conversor-de-temperatura — inline — `useConversor` hook (estado celsius + derivado fahrenheit) + page + input visual.
-- **T5** (S5) ejercicio/05-lista-de-compras — inline — `useListaDeCompras` hook + page + input/lista visual.
-- **T6** (S6) ejercicio/06-buscador — inline — `useBuscador` hook (búsqueda + filtro derivado) + page + visual.
-- **T7** (S7) ejercicio/07-tipar-con-typescript — inline — componente revisado con `ProductoProps` + `oferta?: boolean`.
+- **T3** (S3) ejercicio/03-mostrar-y-ocultar — inline — ✅ commit f419dea (PR #4, squash) — `useVisible` + `TarjetaPregunta` visual.
+- **T4** (S4) ejercicio/04-conversor-de-temperatura — inline — ✅ commit 08e87e4 (PR #5, squash) — `useConversor` (derivados fahrenheit/haceCalor, sin estado propio) + `ConversorView`.
+- **T5** (S5) ejercicio/05-lista-de-compras — inline — ✅ commit 0a0790c (PR #6, squash) — `useListaDeCompras` (spread + filter, vacíos ignorados) + `ListaComprasView`.
+- **T6** (S6) ejercicio/06-buscador — inline — ✅ commit 0cf9731 (PR #7, squash) — `useBuscador` (filtro derivado case-insensitive) + `BuscadorView`.
+- **T7** (S7) ejercicio/07-tipar-con-typescript — inline — ✅ commit 569c3dc (PR #8, squash) — `ProductoProps` con `oferta?: boolean` + `ProductoTipado` visual.
+
+Corrección EJ2 (solicitud del usuario): ✅ commit 9dd6b9a (PR #3, squash) — número grande y bold, orden -, +, Reiniciar y leyenda «Llegaste al máximo».
 
 ## Log
 
@@ -32,3 +34,6 @@ Convención obligatoria (especificada por el usuario): por ejercicio, estructura
 - L2 (2026-11-05) — Corrección visual solicitada: pestañas estilo carpeta, inactive muestra solo «EJ N», activa «EJ N TITULO» (commit b02b793, pusheado).
 - L3 (2026-11-05) — Solicitud de implementación: «ahora resolveremos los ejercicios. branch a branch hasta llegar a sus pr y sus fusiones con main. se prolijo y siguiendo principio de responsabilidad unica, que me gusta usar hook, componente y page. asi visual no se entera de la logica y la logica no sabe de visual» → flujo rama/PR/merge + convención hook/component/page.
 - L4 (2026-11-05) — gh token inválido; el usuario re-autenticó con device code (scopes: repo, workflow). PRs automáticos OK.
+- L5 (2026-11-05) — Corrección visual EJ2 verbatim: «en el ejercicio 2 te falta darle tamaño y bold al numero , ademas esta mal el orden de la botonera, debe ser -, +, y reiniciar, y por ultimo no tiene la leyenda de "Llegaste al maximo"» → PR #3.
+- L6 (2026-11-05) — Solicitud de título de sección: falta el título «Ejercicio Resuelto» antes de la implementación propia → commit c520ff2.
+- L7 (2026-11-05) — Feature completa: los 7 ejercicios implementados, un PR cada uno, squash merges a main, verificación `npm run build` por tarea. Pendiente: revisión visual del usuario en el navegador.
