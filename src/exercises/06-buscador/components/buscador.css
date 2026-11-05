@@ -1,0 +1,36 @@
+/* Buscador — visual */
+.buscador-input {
+  font: inherit;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.buscador-input:focus {
+  outline: 2px solid var(--teal);
+  outline-offset: 1px;
+}
+
+.buscador-conteo {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 8px 0 12px;
+}
+
+.buscador-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 280px;
+}
+
+.buscador-item {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 12px;
+}
