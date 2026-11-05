@@ -1,7 +1,7 @@
 import type { ComponentType } from 'react';
 import TarjetasDeProductoPage from '../exercises/01-tarjetas-de-producto/TarjetasDeProductoPage';
 import ContadorConLimitesPage from '../exercises/02-contador-con-limites/ContadorConLimitesPage';
-import MostrarYOcultar from '../exercises/03-mostrar-y-ocultar/MostrarYOcultar';
+import MostrarYOcultarPage from '../exercises/03-mostrar-y-ocultar/MostrarYOcultarPage';
 import ConversorDeTemperatura from '../exercises/04-conversor-de-temperatura/ConversorDeTemperatura';
 import ListaDeCompras from '../exercises/05-lista-de-compras/ListaDeCompras';
 import Buscador from '../exercises/06-buscador/Buscador';
@@ -62,7 +62,7 @@ export const EXERCISES: Exercise[] = [
     hint: 'Un estado booleano alcanza: `const [visible, setVisible] = useState(false)`. Para alternar: `setVisible(!visible)`.',
     image: '/ej_03.png',
     caption: 'Con la respuesta visible.',
-    Component: MostrarYOcultar,
+    Component: MostrarYOcultarPage,
   },
   {
     id: 'conversor-de-temperatura',
