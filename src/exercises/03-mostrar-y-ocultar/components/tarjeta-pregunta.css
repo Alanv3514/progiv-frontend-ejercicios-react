@@ -1,0 +1,33 @@
+/* Tarjeta de pregunta/respuesta — visual */
+.tarjeta-pregunta {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 18px;
+  max-width: 420px;
+  background: #fff;
+}
+
+.tarjeta-pregunta-texto {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.tarjeta-pregunta-respuesta {
+  margin: 0 0 12px;
+  color: var(--chip-ink);
+}
+
+.tarjeta-pregunta-boton {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--chip-ink);
+  cursor: pointer;
+}
+
+.tarjeta-pregunta-boton:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+}
