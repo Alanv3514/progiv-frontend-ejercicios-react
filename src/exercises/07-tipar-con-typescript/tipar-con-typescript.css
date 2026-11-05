@@ -1,0 +1,6 @@
+/* Layout del ejercicio 7: tres tarjetas en fila */
+.tipar-con-typescript {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

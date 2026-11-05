@@ -1,0 +1,30 @@
+/* Producto tipado con oferta */
+.tarjeta-producto-tipado {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 18px;
+  min-width: 130px;
+  border-color: var(--teal);
+}
+
+.tarjeta-producto-tipado-nombre {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.tarjeta-producto-tipado-oferta {
+  color: var(--teal);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.tarjeta-producto-tipado-precio {
+  margin: 0 0 6px;
+}
+
+.tarjeta-producto-tipado-stock {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
