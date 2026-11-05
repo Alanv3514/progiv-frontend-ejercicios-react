@@ -2,7 +2,7 @@ import type { ComponentType } from 'react';
 import TarjetasDeProductoPage from '../exercises/01-tarjetas-de-producto/TarjetasDeProductoPage';
 import ContadorConLimitesPage from '../exercises/02-contador-con-limites/ContadorConLimitesPage';
 import MostrarYOcultarPage from '../exercises/03-mostrar-y-ocultar/MostrarYOcultarPage';
-import ConversorDeTemperatura from '../exercises/04-conversor-de-temperatura/ConversorDeTemperatura';
+import ConversorDeTemperaturaPage from '../exercises/04-conversor-de-temperatura/ConversorDeTemperaturaPage';
 import ListaDeCompras from '../exercises/05-lista-de-compras/ListaDeCompras';
 import Buscador from '../exercises/06-buscador/Buscador';
 import TiparConTypeScript from '../exercises/07-tipar-con-typescript/TiparConTypeScript';
@@ -74,7 +74,7 @@ export const EXERCISES: Exercise[] = [
     hint: 'El valor del input es texto. Convertilo con `Number(celsius)` antes de calcular. Fahrenheit no necesita estado propio: se calcula a partir de Celsius en cada renderizado.',
     image: '/ej_04.png',
     caption: 'Con 35 °C ingresados.',
-    Component: ConversorDeTemperatura,
+    Component: ConversorDeTemperaturaPage,
   },
   {
     id: 'lista-de-compras',

@@ -1,0 +1,35 @@
+/* Conversor de temperatura — visual */
+.conversor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 260px;
+}
+
+.conversor-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.conversor-input {
+  font: inherit;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  width: 100%;
+}
+
+.conversor-input:focus {
+  outline: 2px solid var(--teal);
+  outline-offset: 1px;
+}
+
+.conversor-resultado {
+  margin: 4px 0 0;
+}
+
+.conversor-aviso {
+  margin: 0;
+  color: #b3541e;
+  font-weight: 600;
+}
