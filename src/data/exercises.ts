@@ -3,7 +3,7 @@ import TarjetasDeProductoPage from '../exercises/01-tarjetas-de-producto/Tarjeta
 import ContadorConLimitesPage from '../exercises/02-contador-con-limites/ContadorConLimitesPage';
 import MostrarYOcultarPage from '../exercises/03-mostrar-y-ocultar/MostrarYOcultarPage';
 import ConversorDeTemperaturaPage from '../exercises/04-conversor-de-temperatura/ConversorDeTemperaturaPage';
-import ListaDeCompras from '../exercises/05-lista-de-compras/ListaDeCompras';
+import ListaDeComprasPage from '../exercises/05-lista-de-compras/ListaDeComprasPage';
 import Buscador from '../exercises/06-buscador/Buscador';
 import TiparConTypeScript from '../exercises/07-tipar-con-typescript/TiparConTypeScript';
 
@@ -86,7 +86,7 @@ export const EXERCISES: Exercise[] = [
     hint: 'Nunca modifiques el array del estado con `push`. Creá uno nuevo: para agregar, `[...items, nuevo]`; para eliminar, `items.filter(i => i.id !== id)`. Como id podés usar `Date.now()`.',
     image: '/ej_05.png',
     caption: 'Después de agregar tres ítems.',
-    Component: ListaDeCompras,
+    Component: ListaDeComprasPage,
   },
   {
     id: 'buscador',
