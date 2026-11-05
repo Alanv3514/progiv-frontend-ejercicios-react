@@ -12,7 +12,6 @@ export function ContadorView({ valor, onSumar, onRestar, onReiniciar }: Contador
   return (
     <section className="contador">
       <p className="contador-valor" aria-live="polite">{valor}</p>
-      {valor === 10 && <p className="contador-leyenda">Llegaste al máximo</p>}
       <div className="contador-botones">
         <button
           type="button"
@@ -20,7 +19,7 @@ export function ContadorView({ valor, onSumar, onRestar, onReiniciar }: Contador
           disabled={valor === 0}
           onClick={onRestar}
         >
-          - 1
+          -
         </button>
         <button
           type="button"
@@ -28,12 +27,14 @@ export function ContadorView({ valor, onSumar, onRestar, onReiniciar }: Contador
           disabled={valor === 10}
           onClick={onSumar}
         >
-          + 1
+          +
         </button>
         <button type="button" className="contador-boton" onClick={onReiniciar}>
           Reiniciar
         </button>
+
       </div>
+      {valor === 10 && <p className="contador-leyenda">Llegaste al máximo</p>}
     </section>
   );
 }
