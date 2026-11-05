@@ -1,0 +1,77 @@
+/* Lista de compras — visual */
+.lista-compras-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.lista-compras-input {
+  font: inherit;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  flex: 1;
+  min-width: 180px;
+  max-width: 280px;
+}
+
+.lista-compras-input:focus {
+  outline: 2px solid var(--teal);
+  outline-offset: 1px;
+}
+
+.lista-compras-boton {
+  font: inherit;
+  padding: 8px 16px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--chip-ink);
+  cursor: pointer;
+}
+
+.lista-compras-boton:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+.lista-compras-vacio {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.lista-compras-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 320px;
+}
+
+.lista-compras-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.lista-compras-eliminar {
+  font: inherit;
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.lista-compras-eliminar:hover {
+  color: #c0392b;
+  background: #fdecea;
+}
