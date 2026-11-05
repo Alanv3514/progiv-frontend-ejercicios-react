@@ -1,0 +1,23 @@
+/* Tarjeta de producto — visual del componente Producto */
+.tarjeta-producto {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px 18px;
+  min-width: 130px;
+}
+
+.tarjeta-producto-nombre {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.tarjeta-producto-precio {
+  margin: 0 0 6px;
+}
+
+.tarjeta-producto-stock {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}

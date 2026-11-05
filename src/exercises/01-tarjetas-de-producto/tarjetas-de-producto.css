@@ -1,0 +1,6 @@
+/* Ejercicio 1 — tarjeta de producto (visual, sin lógica) */
+.tarjetas-de-producto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

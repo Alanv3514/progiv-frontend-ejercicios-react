@@ -1,5 +1,5 @@
 import type { ComponentType } from 'react';
-import TarjetasDeProducto from '../exercises/01-tarjetas-de-producto/TarjetasDeProducto';
+import TarjetasDeProductoPage from '../exercises/01-tarjetas-de-producto/TarjetasDeProductoPage';
 import ContadorConLimites from '../exercises/02-contador-con-limites/ContadorConLimites';
 import MostrarYOcultar from '../exercises/03-mostrar-y-ocultar/MostrarYOcultar';
 import ConversorDeTemperatura from '../exercises/04-conversor-de-temperatura/ConversorDeTemperatura';
@@ -38,7 +38,7 @@ export const EXERCISES: Exercise[] = [
     hint: 'Desestructurá las props en la firma: `function Producto({ nombre, precio, stock })`. Para el stock usá un ternario: `stock === 0 ? "…" : "…"`.',
     image: '/ej_01.png',
     caption: 'Las tres tarjetas, una de ellas sin stock.',
-    Component: TarjetasDeProducto,
+    Component: TarjetasDeProductoPage,
   },
   {
     id: 'contador-con-limites',
