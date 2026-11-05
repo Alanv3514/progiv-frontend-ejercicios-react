@@ -18,8 +18,8 @@ Convención obligatoria (especificada por el usuario): por ejercicio, estructura
 
 ## Tasks
 
-- **T1** (S1) ejercicio/01-tarjetas-de-producto — inline — commit: fb_gate_pending — page `TarjetasDeProductoPage.tsx` + componente `Producto` (sin hook: no hay lógica de estado; props puros).
-- **T2** (S2) ejercicio/02-contador-con-limites — inline — `useContador` hook + `ContadorConLimitesPage` + botones visuales.
+- **T1** (S1) ejercicio/01-tarjetas-de-producto — inline — ✅ commit 1a55a05 (PR #1, squash) — page `TarjetasDeProductoPage.tsx` + componente `Producto` (sin hook: no hay lógica de estado; props puros).
+- **T2** (S2) ejercicio/02-contador-con-limites — inline — ✅ commit 63c1ab9 (PR #2, squash) — `useContador` (guardas de rango) + `ContadorView` visual puro (disabled según límites).
 - **T3** (S3) ejercicio/03-mostrar-y-ocultar — inline — `useVisible` hook + `MostrarYOcultarPage` + tarjeta visual.
 - **T4** (S4) ejercicio/04-conversor-de-temperatura — inline — `useConversor` hook (estado celsius + derivado fahrenheit) + page + input visual.
 - **T5** (S5) ejercicio/05-lista-de-compras — inline — `useListaDeCompras` hook + page + input/lista visual.

@@ -1,3 +1,31 @@
+/* Contador — visual */
+.contador {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contador-valor {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0;
+  min-width: 64px;
+  text-align: center;
+}
+
+.contador-leyenda {
+  margin: 0;
+  color: var(--teal);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.contador-botones {
+  display: flex;
+  gap: 8px;
+}
+
 /* Botones del contador — visual */
 .contador-boton {
   font: inherit;
