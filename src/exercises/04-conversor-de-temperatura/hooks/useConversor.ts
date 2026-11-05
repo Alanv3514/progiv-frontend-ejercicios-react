@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 interface ConversorEstado {
   celsius: string;
-  /** Fahrenheit derivado en cada render; null si la entrada no es numérica. */
-  fahrenheit: number | null;
+  /** Fahrenheit derivado en cada render, formateado con 1 decimal; null si la entrada no es numérica. */
+  fahrenheit: string | null;
   haceCalor: boolean;
   escribirCelsius: (valor: string) => void;
 }

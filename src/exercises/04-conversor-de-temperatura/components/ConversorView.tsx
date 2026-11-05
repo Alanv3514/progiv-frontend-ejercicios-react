@@ -2,7 +2,7 @@ import './conversor.css';
 
 interface ConversorViewProps {
   celsius: string;
-  fahrenheit: number | null;
+  fahrenheit: string | null;
   haceCalor: boolean;
   onEscribirCelsius: (valor: string) => void;
 }
