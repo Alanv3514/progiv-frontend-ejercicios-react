@@ -181,6 +181,12 @@ body {
   padding-top: 16px;
 }
 
+.exercise-solution-title {
+  font-size: 0.95rem;
+  color: var(--teal);
+  margin: 0 0 12px;
+}
+
 .exercise-pending {
   color: var(--muted);
   font-size: 0.9rem;

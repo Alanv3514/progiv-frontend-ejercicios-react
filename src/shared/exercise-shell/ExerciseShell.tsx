@@ -57,7 +57,10 @@ export function ExerciseShell({
       </div>
       <p className="exercise-caption">{caption}</p>
 
-      <div className="exercise-solution">{children}</div>
+      <div className="exercise-solution">
+        <h3 className="exercise-solution-title">Ejercicio Resuelto</h3>
+        {children}
+      </div>
     </article>
   );
 }
