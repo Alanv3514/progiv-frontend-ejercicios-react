@@ -30,7 +30,7 @@ export function ConversorView({
 
       {fahrenheit !== null && (
         <p className="conversor-resultado">
-          {celsius} °C = <strong>{fahrenheit} °F</strong>
+          <strong>{fahrenheit} °F</strong>
         </p>
       )}
 
