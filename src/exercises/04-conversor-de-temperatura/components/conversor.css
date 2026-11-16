@@ -6,11 +6,6 @@
   max-width: 260px;
 }
 
-.conversor-label {
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
 .conversor-input {
   font: inherit;
   padding: 8px 10px;
@@ -29,8 +24,8 @@
   font-size: xx-large;
 }
 
+/* "Hace calor" en peso normal y gris oscuro, como la captura */
 .conversor-aviso {
   margin: 0;
-  color: #1b1918;
-  font-weight: 600;
+  color: var(--chip-ink);
 }
