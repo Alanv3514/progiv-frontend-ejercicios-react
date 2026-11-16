@@ -3,7 +3,7 @@
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 14px 18px;
-  max-width: 420px;
+  max-width: 460px;
   background: #fff;
 }
 
@@ -13,17 +13,19 @@
 }
 
 .tarjeta-pregunta-respuesta {
-  margin: 12px 0 0;
+  margin: 8px 0 0;
+  line-height: 1.6;
   color: var(--chip-ink);
 }
 
+/* Mismo estilo pill azul clarito que los botones del ejercicio 2 */
 .tarjeta-pregunta-boton {
   font: inherit;
   font-weight: 600;
   padding: 8px 14px;
-  border: 1px solid #c9dde0;
+  border: 2px solid #A1C8D3;
   border-radius: 10px;
-  background: #e9f2f3;
+  background: #D3EDF4;
   color: #2b5f66;
   cursor: pointer;
 }
