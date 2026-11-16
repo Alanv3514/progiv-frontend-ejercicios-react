@@ -13,6 +13,9 @@
   flex: 1;
   min-width: 180px;
   max-width: 280px;
+  /* Fondo blanco explícito: sin esto el navegador puede pintarlo oscuro */
+  background: #fff;
+  color: inherit;
 }
 
 .lista-compras-input:focus {

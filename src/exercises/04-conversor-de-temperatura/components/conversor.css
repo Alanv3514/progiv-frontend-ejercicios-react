@@ -12,6 +12,9 @@
   border: 1px solid var(--line);
   border-radius: 6px;
   width: 100%;
+  /* Fondo blanco explícito: sin esto el navegador puede pintarlo oscuro */
+  background: #fff;
+  color: inherit;
 }
 
 .conversor-input:focus {
