@@ -12,6 +12,8 @@
   border: 1px solid var(--line);
   border-radius: 6px;
   width: 100%;
+  background: #fff;
+  color: inherit;
 }
 
 .conversor-input:focus {

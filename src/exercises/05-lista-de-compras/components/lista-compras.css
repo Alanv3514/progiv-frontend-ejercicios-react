@@ -13,6 +13,8 @@
   flex: 1;
   min-width: 180px;
   max-width: 280px;
+  background: #fff;
+  color: inherit;
 }
 
 .lista-compras-input:focus {
