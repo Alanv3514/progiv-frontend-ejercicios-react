@@ -16,11 +16,8 @@ export function ConversorView({
 }: ConversorViewProps) {
   return (
     <section className="conversor">
-      <label className="conversor-label" htmlFor="celsius-input">
-        Temperatura en °C
-      </label>
       <input
-        id="celsius-input"
+        aria-label="Temperatura en °C"
         className="conversor-input"
         type="text"
         inputMode="decimal"
