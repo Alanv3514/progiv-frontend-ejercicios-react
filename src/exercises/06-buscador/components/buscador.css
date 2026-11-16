@@ -19,18 +19,13 @@
   margin: 8px 0 12px;
 }
 
+/* Lista simple con viñetas, como la captura de la consigna */
 .buscador-items {
-  list-style: none;
+  list-style: disc;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  max-width: 280px;
+  padding-left: 20px;
 }
 
 .buscador-item {
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 8px 12px;
+  margin-bottom: 6px;
 }
