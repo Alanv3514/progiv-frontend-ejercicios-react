@@ -31,7 +31,7 @@ export function ListaComprasView({
           className="lista-compras-input"
           name="item"
           type="text"
-          placeholder="¿Qué hay para comprar?"
+          placeholder="Ej: yerba"
           aria-label="Nuevo ítem"
         />
         <button type="submit" className="lista-compras-boton">
@@ -45,14 +45,14 @@ export function ListaComprasView({
         <ul className="lista-compras-items">
           {items.map(({ id, texto }) => (
             <li className="lista-compras-item" key={id}>
-              <span>{texto}</span>
+              {texto}
               <button
                 type="button"
                 className="lista-compras-eliminar"
                 aria-label={`Eliminar ${texto}`}
                 onClick={() => onEliminar(id)}
               >
-                ✕
+                Eliminar
               </button>
             </li>
           ))}
