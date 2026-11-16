@@ -1,4 +1,4 @@
-/* Lista de compras — visual */
+/* Lista de compras — visual, alineado con la captura de la consigna */
 .lista-compras-form {
   display: flex;
   gap: 8px;
@@ -20,19 +20,27 @@
   outline-offset: 1px;
 }
 
-.lista-compras-boton {
+/* Botones Agregar y Eliminar: mismo estilo pill azul clarito que el ejercicio 2 */
+.lista-compras-boton,
+.lista-compras-eliminar {
   font: inherit;
-  padding: 8px 16px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: #fff;
-  color: var(--chip-ink);
+  font-weight: 600;
+  padding: 8px 14px;
+  border: 2px solid #A1C8D3;
+  border-radius: 10px;
+  background: #D3EDF4;
+  color: #2b5f66;
   cursor: pointer;
 }
 
-.lista-compras-boton:hover {
-  border-color: var(--teal);
-  color: var(--teal);
+.lista-compras-eliminar {
+  padding: 4px 12px;
+}
+
+.lista-compras-boton:hover,
+.lista-compras-eliminar:hover {
+  background: #dcecee;
+  border-color: #b7d2d6;
 }
 
 .lista-compras-vacio {
@@ -41,37 +49,17 @@
   font-style: italic;
 }
 
+/* Lista simple con viñetas, cada ítem con su botón Eliminar al lado */
 .lista-compras-items {
-  list-style: none;
+  list-style: disc;
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  max-width: 320px;
+  padding-left: 20px;
 }
 
 .lista-compras-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 8px 12px;
+  margin-bottom: 8px;
 }
 
-.lista-compras-eliminar {
-  font: inherit;
-  background: none;
-  border: none;
-  color: var(--muted);
-  cursor: pointer;
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-
-.lista-compras-eliminar:hover {
-  color: #c0392b;
-  background: #fdecea;
+.lista-compras-item > .lista-compras-eliminar {
+  margin-left: 6px;
 }
