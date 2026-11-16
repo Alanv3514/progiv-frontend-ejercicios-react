@@ -1,6 +1,6 @@
-/* Ejercicio 1 — tarjeta de producto (visual, sin lógica) */
+/* Ejercicio 1 — tres tarjetas en fila, todas del mismo ancho */
 .tarjetas-de-producto {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
   gap: 12px;
 }
