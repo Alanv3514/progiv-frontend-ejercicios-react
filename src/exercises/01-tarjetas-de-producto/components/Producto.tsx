@@ -12,7 +12,9 @@ export function Producto({ nombre, precio, stock }: ProductoProps) {
     <article className="tarjeta-producto">
       <h3 className="tarjeta-producto-nombre">{nombre}</h3>
       <p className="tarjeta-producto-precio">${precio}</p>
-      <p className="tarjeta-producto-stock">
+      <p
+        className={`tarjeta-producto-stock${stock === 0 ? ' tarjeta-producto-stock--agotado' : ''}`}
+      >
         {stock === 0 ? 'Sin stock' : `Stock: ${stock} unidades`}
       </p>
     </article>
