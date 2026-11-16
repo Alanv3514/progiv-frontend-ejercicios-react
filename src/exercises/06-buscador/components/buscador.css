@@ -6,7 +6,6 @@
   border-radius: 6px;
   width: 100%;
   max-width: 280px;
-  /* Fondo blanco explícito: sin esto el navegador puede pintarlo oscuro */
   background: #fff;
   color: inherit;
 }
